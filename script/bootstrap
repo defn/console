@@ -6,6 +6,7 @@ function bootstrap {
 
   pkg ensure misc/figlet
   pkg ensure sysutils/pv
+  pkg ensure x11/xtermset || true
 }
 
 bootstrap
